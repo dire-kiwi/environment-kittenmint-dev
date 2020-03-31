@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:kittenmint/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:kittenmint/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:kittenmint/prow:hmacToken
+segmentWriteKey: vault:kittenmint:segmentWriteKey
